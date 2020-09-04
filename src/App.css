@@ -1,38 +1,110 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Quicksand", sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Container {
+  position: relative;
+  left: 17%;
+  margin: 60px;
+  padding: 0;
+  width: 427px;
+  height: 707px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Weather-box {
+  position: relative;
+  background-image: linear-gradient(to bottom, #f47990, #e17ba1, #ba82c5);
+  border-radius: 20px;
+  overflow: hidden;
+  border: none;
+  box-shadow: 12px 12px 2px 1px rgba(151, 151, 160, 0.2);
 }
-
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 43px;
+  color: #f9fbff;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  position: absolute;
+  left: -9%;
+  top: -20%;
+  font-size: 20px;
+}
+h3 {
+  position: relative;
+  text-align: center;
+  left: -35%;
+  font-size: 20px;
+}
+h4 {
+  position: relative;
+  left: 2%;
+  top: 20%;
+  font-size: 20px;
+}
+.emoji {
+  position: relative;
+  left: 36%;
+  top: -30px;
+}
+.footer {
+  position: relative;
+  left: 36%;
+  top: 20px;
+}
+#current-temp {
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  left: 1px;
+  bottom: -10px;
+}
+.temperature {
+  color: #fcfcfc;
+}
+.celsius {
+  position: relative;
+  left: 16pc;
+  top: -3pc;
+}
+.farh {
+  position: relative;
+  left: 16pc;
+  top: -3pc;
+}
+.marker {
+  position: relative;
+  left: 16pc;
+  top: -3pc;
+}
+.search-form {
+  margin-top: 68px;
+  margin-bottom: 10px;
+  width: 225px;
+  position: relative;
+  left: -44px;
+  top: -112px;
+}
+.day {
+  color: #fcfcfc;
+  margin: 20px;
+  position: relative;
+  top: 2pc;
+  font-size: 10px;
+}
+.weather-info {
+  position: inherit;
+  left: -10pc;
+  top: -9pc;
+  font-size: 15px;
+}
+.Forecast {
+  position: relative;
+  top: -4pc;
+  left: -2pc;
+  color: #fcfcfc;
 }
